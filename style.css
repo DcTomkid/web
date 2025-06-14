@@ -1,0 +1,65 @@
+@import url(./reset.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  margin: 2em 1.2em;
+  font-family: "Inter", sans-serif;
+}
+header{
+  margin: 2em 0;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar{
+  display: none;
+}
+.section1-heading {
+  margin: 1.6em 0;
+  h1 {
+    font-size: 2em;
+    color: hsl(240, 100%, 5%);
+    line-height: 1;
+    letter-spacing: -1px;
+    margin: 0;
+    font-weight: 800;
+  }
+  p{
+    margin-top: 1em;
+    color: hsl(236, 13%, 42%);
+    letter-spacing: -2.1px;
+    margin-bottom: 2em;
+  }
+  
+}
+.delink{
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  border: 2px solid hsl(5, 85%, 63%);
+  background-color: hsl(5, 85%, 63%);
+}
+.main-section2 {
+  margin-top: 4em;
+  background-color: hsl(240, 100%, 5%);
+  padding: 10px 20px;
+  .section2 h2{
+    color: hsl(35, 77%, 62%);
+  }
+  .section2 h3 {
+    color: hsl(36, 100%, 99%);
+  }
+  .section2 p {
+    color: hsl(236, 13%, 42%);
+    line-height: -2;
+    letter-spacing: -1px;
+  }
+}
