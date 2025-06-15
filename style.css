@@ -4,13 +4,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
 body{
   background-color: #fff;
   margin: 2em 1.2em;
   font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+header, footer {
+  -webkit-backface-visibility: hidden;
+  display: block;
 }
 header{
   margin: 2em 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .main-header{
   display: flex;
